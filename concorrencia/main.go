@@ -12,15 +12,30 @@ func main() {
 	// var escreva string
 	// fmt.Scanln(&escreva)
 
-	even, odd := concorrencia.EvenOdd(10)
+	// ----------------------------------------
+	c := make(chan string)
 
-	for _, e := range even {
-		fmt.Printf("Even: %d \n", e)
-	}
-	fmt.Println("------------------")
+	go concorrencia.Ping(c)
+	go concorrencia.Imprimir(c)
 
-	for _, o := range odd {
-		fmt.Printf("Odd: %d", o)
-	}
-	
+	var entrada string
+	fmt.Scanln(&entrada)
+
+	// ----------------------------------------
+
+	// c1 := make(chan string)
+	// c2 := make(chan string)
+
+	// go concorrencia.One(c1)
+	// go concorrencia.Two(c2)
+
+	// for i := 0; i < 2; i++ {
+	// 	select {
+	// 	case msg1 := <- c1:
+	// 		fmt.Println("Receba: ", msg1)
+	// 	case msg2 := <- c2:
+	// 		fmt.Println("Receba: ", msg2)
+	// 	}
+	// }
+
 }
