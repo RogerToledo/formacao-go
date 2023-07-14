@@ -1,0 +1,14 @@
+{
+    "usuarios":[
+        {
+            "nome": "Lord Vader",
+            "corSabre": "Vermelho",
+            "mestre": "Obi-Wan Kenobi"
+        },
+        {
+            "nome": "Obi-Wan Kenobi",
+            "corSabre": "Azul",
+            "mestre": "Qui-Gon Jinn"
+        }
+    ]
+}
