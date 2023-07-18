@@ -1,7 +1,7 @@
 package main
 
 import (
-	concorrencia "dio/formacao-go/concorrencia/go_routine"
+	concorrencia "dio/formacao-go/manipulando-json/concorrencia/go_routine"
 	"fmt"
 )
 

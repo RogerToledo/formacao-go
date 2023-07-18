@@ -1,8 +1,7 @@
 package main
 
 import (
-	//"dio/formacao-go/funcoes/funcoes"
-	"dio/formacao-go/funcoes/funcoes"
+	"dio/formacao-go/manipulando-json/funcoes/funcoes"
 	"fmt"
 )
 
