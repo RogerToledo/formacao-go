@@ -1,7 +1,7 @@
 package main
 
 import (
-	"dio/formacao-go/manipulando-json/api-cadastro/handler"
+	"dio/formacao-go/manipulando-json/api_cadastro/handler"
 	"fmt"
 	"log"
 	"net/http"
